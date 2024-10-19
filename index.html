@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porto Medical</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class=" position-relative">
+    
+    <header class="header w-100 bg-white">
+      <ul class="before-header">
+        <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-record-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+            </svg>
+            <button>1234 Street Name, City Name</button>
+        </li>
+        <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+            </svg>
+            <button>123-456-7890</button>
+        </li>
+        <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+            </svg>
+            <button>mail@domain.com</button>
+        </li>
+      </ul>
+      <div class="container">
+          <h1 class="logo">
+            <a href="index.html"><img src="https://www.portotheme.com/wordpress/porto/medical/wp-content/uploads/sites/67/2022/09/logo-medical.png" alt=""></a>
+          </h1>
+          <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <button class="navbar-toggler shadow-none ms-auto me-auto mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#Departments" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Departments
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#Cardiology">Cardiology</a></li>
+                        <li><a class="dropdown-item" href="#Gastroenterolgy">Gastroenterolgy</a></li>
+                        <li><a class="dropdown-item" href="#Pulmonolgy">Pulmonolgy</a></li>
+                        <li><a class="dropdown-item" href="#Dental">Dental</a></li>
+                        <li><a class="dropdown-item" href="#Gynecology">Gynecology</a></li>
+                        <li><a class="dropdown-item" href="#Hepatology">Hepatology</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Doctors">Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Resources">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Insurance">Insurance</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+      </div>
+    </header>
+
+    <section id="home" class="landing position-relative">
+        <div class="image overflow-hidden  w-100">
+            <!-- <img class="position-relative" src="https://www.portotheme.com/wordpress/porto/medical/wp-content/uploads/sites/67/2024/02/medical-slide-1.jpg" alt=""> -->
+        </div>
+        <div class="landing-content position-absolute text-white ps-5">
+            <h2 class="text-uppercase fw-bold">Specialists</h2>
+            <p class="first text-uppercase fs-5 fw-bold">20 years caring about you</p>
+            <p class="underlined fs-5 position-absolute">We are located in New York</p>
+        </div>
+        <section id="label" class="position-absolute">
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-3 first-L position-relative">
+                    <div class="d-flex justify-content-between align-items-end position-relative">
+                        <img src="https://www.portotheme.com/wordpress/porto/medical/wp-content/uploads/sites/67/2016/09/medical-icon-heart.png" alt="">
+                        <h3 class="m-0 ms-3 fs-5">Medical <span>Treatment</span></h3>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3 pe-3 second-L d-flex align-items-center justify-content-end">
+                    <div class="text-white fw-bold">
+                        <button class="text-white bg-transparent border-0 fw-bold p-0 text-uppercase">Doctors Timetable</button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                        </svg>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3 third-L d-flex align-items-center justify-content-center position-relative">
+                    <div class="text-white fw-bold">
+                        <button class="text-white bg-transparent border-0 fw-bold p-0 text-uppercase">Opening Hours</button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                        </svg>
+                        <button class="hours position-absolute w-100 border-0 p-4 text-white text-start">
+                            <div class="mb-2 fw-bold">
+                                <span class="text-white-50">Mon-Fri : </span>8:30 AM To 5:00 PM
+                            </div>
+                            <div class="mb-2 fw-bold">
+                                <span class="text-white-50">Saturday : </span>9:30 AM To 1:00 PM
+                            </div>
+                            <div class="mb-2 fw-bold">
+                                <span class="text-white-50">Sunday : </span>Closed
+                            </div>
+                        </button>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3 fourth-L ps-3 pe-3">
+                    <div class="d-flex justify-content-between align-items-end position-relative text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-outbound" viewBox="0 0 16 16">
+                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                        <h3 class="m-0 ms-3 fs-4 fw-normal"><span class="text-white-50 fs-6 d-block fw-normal">Emergency case</span>(800)123-4567</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </section>
+
+    <section id="about" class="p-5">
+        <div class="container">
+            <div class="card mb-3 border-0">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                          <h2 class="card-title fw-bold mb-0">About Us</h2>
+                          <p class="desc mt-0 text-black-50 fs-6 fw-bold mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          <p class="card-text text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum pretium, tortor risus dapibus tortor, eu suscipit orci leo sed nisl. Integer et ipsum eu nulla auctor mattis sit amet in diam. Vestibulum non ornare arcu. Class aptent taciti sociosqu ad...</p>
+                          <button type="button" class="read-more btn btn-outline-secondary text-uppercase rounded-0 ps-4 pe-4 mt-4 text-black fw-bold">Read More</button>
+                        </div>
+                      </div>
+                  <div class="col-md-4">
+                    <img class="img-fluid rounded-0" src="https://www.portotheme.com/wordpress/porto/medical/wp-content/uploads/sites/67/2024/02/medical-gallery-1.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section id="Departments" class="p-5">
+        <div class="container mw-100">
+            <h2 class="card-title fw-bold mb-0">Departments</h2>
+            <p class="desc mt-0 text-black-50 fs-6 fw-bold mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row ms-3 me-3">
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card mb-3 border-0 ms-lg-3 bg-transparent">
+                        <div class="row g-0">
+                          <div class="col-md-2 mt-3">
+                            <img src="https://www.portotheme.com/wordpress/porto/medical/wp-content/uploads/sites/67/2016/09/department-icon-cardiology.png" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold">Cardiology</h5>
+                              <p class="card-text text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum…</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card mb-3 border-0 ms-lg-3 bg-transparent">
+                        <div class="row g-0">
+                          <div class="col-md-2 mt-3">
+                            <img src="https://www.portotheme.com/wordpress/porto/medical/wp-content/uploads/sites/67/2016/09/department-icon-gastroenterology.png" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold">Gastroenterology</h5>
+                              <p class="card-text text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum…</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card mb-3 border-0 ms-lg-3 bg-transparent">
+                        <div class="row g-0">
+                          <div class="col-md-2 mt-3">
+                            <img src="https://www.portotheme.com/wordpress/porto/medical/wp-content/uploads/sites/67/2016/09/department-icon-pulmonology.png" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold">Pulmonology</h5>
+                              <p class="card-text text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum…</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ms-3 me-3">
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card mb-3 border-0 ms-lg-3 bg-transparent">
+                        <div class="row g-0">
+                          <div class="col-md-2 mt-3">
+                            <img src="https://www.portotheme.com/wordpress/porto/medical/wp-content/uploads/sites/67/2016/09/department-icon-dental.png" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold">Dental</h5>
+                              <p class="card-text text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum…</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card mb-3 border-0 ms-lg-3 bg-transparent">
+                        <div class="row g-0">
+                          <div class="col-md-2 mt-3">
+                            <img src="https://www.portotheme.com/wordpress/porto/medical/wp-content/uploads/sites/67/2016/09/department-icon-gynecology.png" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold">Gynecology</h5>
+                              <p class="card-text text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum…</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card mb-3 border-0 ms-lg-3 bg-transparent">
+                        <div class="row g-0">
+                          <div class="col-md-2 mt-3">
+                            <img src="https://www.portotheme.com/wordpress/porto/medical/wp-content/uploads/sites/67/2016/09/department-icon-hepatology.png" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold">Hepatology</h5>
+                              <p class="card-text text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum…</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="button" class="read-more btn btn-outline-secondary rounded-0 ps-4 pe-4 mt-4 text-black fw-bold text-uppercase">View More</button>
+            </div>
+        </div>                   
+    </section>
+
+    <section id="Doctors" class="pt-5 pb-5 w-100">
+        <div class="container">
+            <h2 class="card-title fw-bold mb-0 ps-4">Doctors</h2>
+            <p class="desc mt-0 text-black-50 fs-6 fw-bold mb-4 ps-4">Our Specialists</p>
+            <div class="image-slider w-100 d-flex justify-content-start align-items-center flex-nowrap mt-3 mb-3 pt-2 overflow-x-auto">
+                <div class="doctor">
+                    <img src="imgs/doctor-1.jpg" alt="">
+                    <div class="info d-flex justify-content-evenly align-items-center">
+                        <div class="mt-3">
+                            <a href="#" class="text-decoration-none text-black-50 fs-5">Cardiology</a>
+                            <h4 class="fw-bold">John Doe</h4>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="doctor">
+                    <img src="imgs/doctor-2.jpg" alt="">
+                    <div class="info d-flex justify-content-evenly align-items-center">
+                        <div class="mt-3">
+                            <a href="#" class="text-decoration-none text-black-50 fs-5">Gastroenterology</a>
+                            <h4 class="fw-bold">Robin Doe</h4>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="doctor">
+                    <img src="imgs/doctor-3.jpg" alt="">
+                    <div class="info d-flex justify-content-evenly align-items-center">
+                        <div class="mt-3">
+                            <a href="#" class="text-decoration-none text-black-50 fs-5">Pulmonolgy</a>
+                            <h4 class="fw-bold">Jessica Doe</h4>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="doctor">
+                    <img src="imgs/doctor-4.jpg" alt="">
+                    <div class="info d-flex justify-content-evenly align-items-center">
+                        <div class="mt-3">
+                            <a href="#" class="text-decoration-none text-black-50 fs-5">Dental</a>
+                            <h4 class="fw-bold">Rose Doe</h4>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="doctor">
+                    <img src="imgs/doctor-5.jpg" alt="">
+                    <div class="info d-flex justify-content-evenly align-items-center">
+                        <div class="mt-3">
+                            <a href="#" class="text-decoration-none text-black-50 fs-5">Gynecology</a>
+                            <h4 class="fw-bold">Mary Ann Doe</h4>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Resources" class="p-5 w-100">
+        <div class="container mw-100">
+            <h2 class="card-title fw-bold mb-0">Resources</h2>
+            <p class="desc mt-0 text-black-50 fs-6 fw-bold mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row mt-5">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card border-0 rounded-0 mb-3">
+                        <img class="rounded-0" src="imgs/medical-gallery-2-300x150.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-4">
+                          <h5 class="card-title fw-bold fs-6">Prepare for visit</h5>
+                          <p class="card-text text-black-50">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card border-0 rounded-0 mb-3">
+                        <img class="rounded-0" src="imgs/medical-gallery-3-300x150.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-4">
+                          <h5 class="card-title fw-bold fs-6">Patients</h5>
+                          <p class="card-text text-black-50">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card border-0 rounded-0 mb-3">
+                        <img class="rounded-0" src="imgs/medical-gallery-4-300x150.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-4">
+                          <h5 class="card-title fw-bold fs-6">Surgery process</h5>
+                          <p class="card-text text-black-50">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <button type="button" class="read-more btn btn-outline-secondary rounded-0 ps-4 pe-4 mt-4 text-black fw-bold text-uppercase">View More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="Insurance" class="p-5 w-100">
+      <div class="container mw-100">
+          <h2 class="card-title fw-bold mb-0">Insurance</h2>
+          <p class="desc mt-0 text-black-50 fs-6 fw-bold mb-4">Major insurance providers accepted</p>
+          <div class="row text-center mt-5">
+            <div class="col-sm-6 col-md-4 col-lg-2">
+              <img class="pt-3 pb-3" src="imgs/medical-logo-1.png" alt="">
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+              <img class="pt-3 pb-3" src="imgs/medical-logo-2.png" alt="">
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+              <img class="pt-3 pb-3" src="imgs/medical-logo-3.png" alt="">
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+              <img class="pt-3 pb-3" src="imgs/medical-logo-4.png" alt="">
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+              <img class="pt-3 pb-3" src="imgs/medical-logo-5.png" alt="">
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+              <img class="pt-3 pb-3" src="imgs/medical-logo-6.png" alt="">
+            </div>
+          </div>
+      </div>
+  </section>
+
+  <section id="Quote" class="p-5 w-100 text-light">
+    <div class="container text-center">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active position-relative">
+            <svg class="first-svg d-block ms-auto me-auto" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+              <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>
+            </svg>
+            <blockquote class="position-relative mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum pretium, tortor risus dapibus tortor, eu suscipit orci leo sed nisl. Integer et ipsum eu nulla auctor mattis sit amet in diam. Vestibulum non.</blockquote>
+            <p class="name mt-5 me-auto ms-auto position-relative">John Smith</p>
+          </div>
+          <div class="carousel-item position-relative">
+            <svg class="first-svg d-block ms-auto me-auto" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+              <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>
+            </svg>
+            <blockquote class="position-relative mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum pretium, tortor risus dapibus tortor, eu suscipit orci leo sed nisl. Integer et ipsum eu nulla auctor mattis sit amet in diam. Vestibulum non.</blockquote>
+            <p class="name mt-5 me-auto ms-auto position-relative">Mary Smith</p>
+          </div>
+          <div class="carousel-item position-relative">
+            <svg class="first-svg d-block ms-auto me-auto" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+              <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>
+            </svg>
+            <blockquote class="position-relative mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum pretium, tortor risus dapibus tortor, eu suscipit orci leo sed nisl. Integer et ipsum eu nulla auctor mattis sit amet in diam. Vestibulum non.</blockquote>
+            <p class="name mt-5 me-auto ms-auto position-relative">Doe Smith</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="w-100">
+    <div class="container text-light mw-100 p-5">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h4 class="mb-3 fs-6">Location</h4>
+          <p class="text text-white-50">Porto Medical
+            123 Porto Blvd, Suite 100
+            New York, NY
+            Phone : 123-456-7890</p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h4 class="mb-3 fs-6">Opening Hours</h4>
+          <ul class="p-0 f-hours">
+            <li class="mb-2"><span class="text-white-50">Mon-Fri</span> : 8:30 am to 5:00 pm</li>
+            <li class="mb-2"><span class="text-white-50">Saturday</span> : 9:30 am to 1:00 pm</li>
+            <li><span class="text-white-50">Sunday</span> : Closed</li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h4 class="mb-3 fs-6">Emergency Cases</h4>
+          <h3><a class="phone text-decoration-none text-white-50" href="tel:+(800)123-4567">(800)123-4567</a></h3>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h4 class="mb-3 fs-6">Social Media</h4>
+          <ul class="sm d-flex justify-content-between align-items-center p-0">
+            <li><a class="sm-icon fb text-white" href="https://www.facebook.com" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+              </svg>
+            </a></li>
+            <li><a class="sm-icon linked text-white" href="https://www.linkedin.com" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+              </svg>
+            </a></li>
+            <li><a class="sm-icon twitter text-white" href="https://www.twitter.com" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+              </svg>
+            </a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright position-absolute bottom-0 mb-1  text-white-50">&copy; <span class="fw-bold"></span> All Rights Reserved. By Mennat-Allah Mahmoud</p>
+    </div>
+    <span class="scroll-top">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+      </svg>
+    </span>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
